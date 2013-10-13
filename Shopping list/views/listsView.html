@@ -1,0 +1,28 @@
+<div data-role="view" id="tabstrip-lists" 
+	 data-title="Lists"
+	 data-layout="mobile-tabstrip"
+	 data-show="app.lists.init">
+	<ul id="flat-listview"
+		data-role="listview"
+		data-id="tabstrip-lists"
+		data-source="app.lists.data"
+		data-init="app.lists.init"
+		data-template="tmp"
+		data-click="app.lists.listClicked"
+		data-style="inset">
+
+	</ul>
+	<div>
+		<input type="text" id="newListNameInput" 
+			   data-bind="value: newListName"/>
+		<button data-role="button"
+				data-click="app.lists.addList">
+			Add
+		</button>
+	</div>
+	<script type="text/x-kendo-template" id="tmp">
+		<a href="views/recordsView.html">
+			<p>#: Name #</p>
+		</a>
+	</script>
+</div>

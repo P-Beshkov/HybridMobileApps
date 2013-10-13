@@ -1,0 +1,30 @@
+•	Use at least two of the following Cordova APIs (up to 12 points)
+- Capture - capture photo for the item, capture audio list
+- Contacts - use contacts to send item
+- Media - play audio list
+•	Use some kind of storage (up to 10 points)
+The storage can be file system, native device storage, SQLite or web services
+•	Use the Notification API (up to 5 points)
+Use at least one of vibrate, alert, etc… - vibrate on recieving item
+•	Use the Event API (up to 10 points)
+Use at least one of the Event APIs, excluding deviceready and backbutton
+•	Use at least of two of the following Cordova APIs (up to 12 points)
+Accelerometer 
+Camera
+Compass
+Geolocation
+•	Use Kendo UI Mobile for the application (up to 12 points)
+Use Kendo UI Mobile widgets and components (up to 4 points)
+Use the MVVM architecture (up to 4 points)
+Views and templates (up to 4 points)
+•	The application must be separated into several views and navigation between them (up to 10 points)
+•	The application must be touch friendly (up to 10 points)
+Implement functionality support touch events
+Large enough touch targets (buttons, listviews, text, etc..)
+•	High-quality code (up to 10 points)
+The application code must be separated into consistent and cohesive modules
+The modules must follow the best practices for developing applications
+•	Validation and Error handling (up to 9 points)
+Validation of user input (up to 3 points)
+Handling access denials, network issues, etc. and keeping app alive (up to 3 points)
+Providing user with user-friendly notifications of errors (up to 3 points)

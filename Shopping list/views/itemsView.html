@@ -1,0 +1,37 @@
+<div data-role="view" id="tabstrip-items" 
+	 data-title="Items"
+	 data-layout="items-tabstrip"
+	 data-init="app.items.init">
+	<span>Selected list <span id="listName" data-bind="text: name"/> </span>
+	<ul data-role="listview"
+		data-id="tabstrip-items"
+		data-source="app.items.data"
+		data-template="item-tmp"
+		data-style="inset"/>
+</div>
+
+<script type="text/x-kendo-template" id="item-tmp">
+	<div>
+		<span>#: Name #</span>
+		<button data-role="button" style="float:right"
+				data-click="app.records.addItem">Add </button>
+	</div>
+</script>
+
+<div data-role="layout" data-id="items-tabstrip">
+	<div data-role="header">
+		<div data-role="navbar">
+			<a class="nav-button" data-align="left" data-role="backbutton">Back</a>
+			<span data-role="view-title"></span>
+		</div>
+	</div>
+	<div data-role="footer">
+		<div data-role="tabstrip">
+			<a href="#home" data-icon="home">Home</a>			
+			<a href="views/itemsView.html#tabstrip-items"
+				data-icon="add">Add Items</a>
+			<a href=""
+				data-icon="action">Edit items</a>			
+        </div>
+	</div>
+</div>
